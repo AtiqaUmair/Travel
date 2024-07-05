@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <script src="assets/pdf.js"></script>
+    <script src="assets/jquerry.js"></script>
+    <script src="https://unpkg.com/jspdf-invoice-template@1.4.0/dist/index.js"></script>
+
+
+<section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+       
+  
+
+
+   <div class="passengers" id="a"> 
+
+    <div class="content"> 
+
+     <h2>Head Of passengers</h2> 
+
+     
+     
+     <div class="form"> 
+
+       <div class="inputBox"> 
+         
+         <input type="text" id="headName" required> <i>Head Name</i> 
+
+      </div>  
+      <div class="inputBox"> 
+
+        <input type="number" id="contactNo" required> <i>Contact No</i> 
+ 
+       </div> 
+
+       <div class="inputBox"> 
+
+        <input type="number" id="voucherNo" required> <i>Voucher No</i> 
+ 
+       </div> 
+    
+       <!-- <input  type="button" value="Download PDF" id="btnDownload">   -->
+       <div class="inputBox"> 
+
+         <input  id="next1" type="submit" value="Next">  
+         <!-- <a href="passengerDetails.html"><input type="button" value="Next"></a> -->
+       <!-- <input type="button" value="Download PDF" id="btnDownload">  -->
+
+       </div>  
+       
+     </div> 
+
+    </div> 
+
+   </div>
+
+
+
+
+
+   <div class="passengers" id="b"> 
+
+    <div class="content"> 
+
+     <h2>passengers Details</h2> 
+
+     
+     
+     <div class="form"> 
+
+       <div class="inputBox"> 
+         
+         <input type="text" id="name" required> <i> Name</i> 
+
+      </div>  
+      <div class="inputBox"> 
+
+        <input type="text" id="gender" required> <i>Gender</i> 
+ 
+       </div> 
+
+      <div class="inputBox"> 
+
+       <input type="number" id="PassportNo" required> <i>Passport No</i> 
+ 
+       </div> 
+
+       <div class="inputBox"> 
+
+
+        <input type="number" id="visaNo" required> <i>Visa No</i> 
+ 
+       </div> 
+    
+       <!-- <input  type="button" value="Download PDF" id="btnDownload">   -->
+       <div class="inputBox"> 
+
+         <input  id="next2" type="submit" value="Next">  
+         <!-- <a href="passengerDetails.html"><input type="button" value="Next"></a> -->
+       <!-- <input type="button" value="Download PDF" id="btnDownload">  -->
+
+       </div>  
+
+        
+
+       
+       
+     </div> 
+
+    </div> 
+
+   </div>
+
+
+
+
+   <div class="passengers" id="c"> 
+
+    <div class="content"> 
+
+     <h2>Transporat Details</h2> 
+
+     
+     
+     <div class="form"> 
+
+       <div class="inputBox"> 
+         
+         <input type="text" id="transportationCompanyName" required> <i>Transportation Company Name</i> 
+
+      </div>  
+      <div class="inputBox"> 
+
+        <input type="text" id="transportType" required> <i>Transport Type/Route</i> 
+ 
+       </div> 
+
+    
+       <input  type="button" value="Download PDF" id="btnDownload">  
+       <!-- <div class="inputBox">  -->
+
+         <!-- <input  id="next2" type="submit" value="Next">   -->
+         <!-- <a href="passengerDetails.html"><input type="button" value="Next"></a> -->
+       <!-- <input type="button" value="Download PDF" id="btnDownload">  -->
+
+       </div>  
+       
+     </div> 
+
+    </div> 
+
+   </div>
+
+
+
+
+
+
+
+
+</section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div id="a">THIS IS DIV A</div>
+    <div id="b">THIS IS DIV B</div>
+    <div id="b">THIS IS DIV B</div>
+    <button id="next1">NEXT</button> -->
+</body>
+<!-- <script src="app.js"></script> -->
+<script src="jquery.js"></script>
+<script src="index.js"></script>
+</html>
